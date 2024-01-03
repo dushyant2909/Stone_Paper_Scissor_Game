@@ -3,12 +3,12 @@ body{
 }
 .options{
     width: fit-content;
-    height: 60px;
+    height: 58px;
     font-size: larger;
     font-weight: bold;
     border: 2px solid black;
     border-radius: 10px;
-    padding: 18px;
+    padding: 10px;
     background-color: #ecf0f1;
     margin: 0px 10px;
 }
@@ -19,7 +19,7 @@ body{
     background-color: orange;
 }
 
-.result{
+.computerInput{
     width: fit-content;
     height: 60px;
     font-size: larger;
@@ -48,4 +48,25 @@ body{
     font-size: 25px;
     color: #c0392b;
     font-weight: bold;
+}
+
+.summary-outer{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.summary{
+    font-weight: bold;
+    font-size: large;
+}
+#win{
+    color: green;
+}
+#loose{
+    color: red;
+}
+#total{
+    color:purple
 }

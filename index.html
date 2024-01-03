@@ -11,22 +11,28 @@
 <body>
     <h1>Stone-Paper-Scissor</h1>
     <hr>
-    <div class="">
-        <p class="sub-heading"><i class="fa-solid fa-person"></i> User: choose one option- <span id="user-input"></span></p>
+    <div>
+        <p class="sub-heading"><i class="fa-solid fa-person"></i> User: choose one option- <span id="user-input"></span>
+        </p>
         <button class="options" value="1" onclick="clicked(this)">Stone <i
                 class="fa-regular fa-hand-back-fist"></i></button>
         <button class="options" value="2" onclick="clicked(this)">Paper <i class="fa-regular fa-hand"></i></button>
         <button class="options" value="3" onclick="clicked(this)">Scissors <i
                 class="fa-regular fa-hand-scissors"></i></button>
     </div>
-    <div class="">
+    <div>
         <p class="sub-heading"><i class="fa-solid fa-computer"></i> Computer: chooses</p>
-        <button class="result">All the best!</button>
-    </div>
-    <div class="">
-        <p class="sub-heading"><i class="fa-solid fa-hourglass-start"></i> Result</p>
-        <button id="finalResult">Wait a moment</button>
-    </div>
+        <button class="computerInput">All the best!</button>
+        </div=>
+        <div>
+            <p class="sub-heading"><i class="fa-solid fa-hourglass-start"></i> Result</p>
+            <button id="finalResult">Wait a moment</button>
+        </div>
+        <div class="summary-outer">
+            <p class="summary">Winning times: <span id="win">4</span></p>
+            <p class="summary">Loosing times: <span id="loose">8</span></p>
+            <p class="summary">Total times played: <span id="total">10</span></p>
+        </div>
 </body>
 
 </html>
